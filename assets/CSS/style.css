@@ -2,22 +2,45 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.main {
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    /* background-color: #13293d; */
+}
+
+main {
     background-color: rgb(219, 208, 208);
 }
 
 .header {
-    width: 100%;
+    background: #13293d;
+    color: #fff;
     height: 100px;
-    background-color:rgba(0, 0, 0, 0.5);
-    color: #ffffff;
 }
 
-.nav-bar {
+.name {
+    text-align: center;
+    position: relative
+
+}
+
+.navbar {
+    display: flex;
+    background-color: #d8a47f;
+    justify-content: space-evenly;
+}
+
+.nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-direction: row;
     align-content: space-between;
     padding: 16px;
     margin: 20px 20px 0px 20px;
@@ -36,6 +59,7 @@ h1 {
     padding: 3px;
     margin-left: 30px;
     margin-top: 25px;
+    font-size: 50px;
 }
 
 a {
@@ -51,40 +75,38 @@ body, html {
     height: 100%;
 }
 
-#headshot { 
-    height: 25%;
-    width: 25%;
+.headshot { 
+    height: 150%;
+    width: 150%;
     padding: 10px;
     position: relative;
     display: flex;
     align-items: flex-start;
+    float: left;
+}
+
+.container {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.about-me {
+    float: left;
 }
 
 
 
-
-
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("/assets/Images/Headshot.jpg");
-  /* Set a specific height */
-  height: 50%;
-  background-color: black;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 50%;
-  position: relative;
+.footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    margin-top: auto;
 }
-
-/* Place text in the middle of the image */
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
