@@ -9,6 +9,21 @@ body, html {
     height: 170vh;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    }
+    
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+ul {
+    list-style-type: none;
+   }
+
 .body {
     background-color: rgb(236, 172, 88);
     display: flex;
@@ -90,62 +105,160 @@ body, html {
 }
 
 #headshot {
-    height: 300px;
+    display: flex;
+    height: 350px;
     width: auto;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 20px;
+    border-radius: 60px;
     float: left;
 }    
 
+.detail-area {
+    padding: 10px;
+}
+
 .about-me-section {
-    display: block;
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    height: 25vh;
+    margin-top: 50px;
 }
 
 .about-me {
     font-size: 35px;
+    padding: 10px;
+    align-self: flex-start;
     text-align: center;
     font-weight: 500;
-    border: 3px solid #d71a1a;
+    /* border: 3px solid #d71a1a; */
 }
 
 .about-text{
     line-height: 1.5;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border: 3px solid green; */
+    padding-right: 10px;
+}
+
+.projects-section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: center;
-    border: 3px solid green;
-    padding-right: 10px
-}
-
-#about-p {
-
-}
-.my-projects-section {
-
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: burlywood;
 }
 
 .my-projects {
     font-size: 35px;
+    align-self: center;
     text-align: center;
     font-weight: 500;
     border: 3px solid #1523bd;
 }
 
+.projects-container {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.projects-item {
+    width: 300px;
+    border: 3px solid rgb(0, 0, 114);
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #dfdfdf;
+}
+
+.project-item-1 {
+    min-width: 600px
+}
+
+.project-item-2 {
+    align-self: flex-end;
+    min-width: 350px;
+}
+
+.project-item-3 {
+    align-self: flex-end;
+    min-width: 350px;
+}
+
+#horiseon {
+    height: 200px;
+    width: fit-content;
+    padding: 10px;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+#placeholder-2 {
+    height: 200px;
+    width: fit-content;
+    padding: 10px;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+#placeholder-3 {
+    height: 200px;
+    width: fit-content;
+    padding: 10px;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.contact-container {
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 25vh;
+}
 .contact {
     font-size: 35px;
     text-align: center;
     font-weight: 500;
-    float: left;
+    padding: 15px;
+    background-color: burlywood;
+}
+
+.contact-section {
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 30px;
 }
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
+    height: 75px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(150, 110, 110);
     color: white;
     text-align: center;
 }
@@ -157,4 +270,12 @@ body, html {
 
 .footer-text {
     font-size: 13px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
 }
