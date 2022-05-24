@@ -99,6 +99,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100%;
 }
 
 .hero-text {
@@ -279,3 +280,32 @@ ul {
     font-size: 13px;
 }
 
+@media screen and (max-width: 992px) {
+    #horiseon {
+      width: 50%;
+    }}
+
+@media screen and (max-width: 768px) {
+    #horiseon {
+      width: 100%;
+   }}
+
+@media screen and (max-width: 992px) {
+    #placeholder-2 {
+      width: 50%;
+    }}
+
+@media screen and (max-width: 768px) {
+    #placeholder-2 {
+      width: 100%;
+   }}
+
+@media screen and (max-width: 992px) {
+    #placeholder-3 {
+      width: 50%;
+    }}
+
+@media screen and (max-width: 768px) {
+    #placeholder-3 {
+      width: 100%;
+   }}
