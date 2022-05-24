@@ -140,18 +140,15 @@ ul {
     align-self: flex-start;
     text-align: center;
     font-weight: 500;
-    /* border: 3px solid #d71a1a; */
 }
 
 .about-text{
-    line-height: 1.5;
     font-size: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    /* border: 3px solid green; */
     padding-right: 10px;
 }
 
@@ -236,13 +233,26 @@ ul {
     vertical-align: bottom;
 }
 
+#horiseon:hover {
+    background-color: rgb(0, 0, 114);
+}
+
+#placeholder-2:hover {
+    background-color: rgb(0, 0, 114);
+}
+
+#placeholder-3:hover {
+    background-color: rgb(0, 0, 114);
+}
+
 .contact-container {
-    border: 3px solid yellow;
+    border: 3px solid rgb(141, 141, 26);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 25vh;
 }
+
 .contact {
     font-size: 35px;
     text-align: center;
@@ -261,7 +271,6 @@ ul {
 }
 
 .footer {
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     height: 75px;
