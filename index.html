@@ -8,41 +8,44 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
 
-  <body>
+  <body class="main-body">
     <div class="header">
       <div class="name">MACKENZIE GRAY</div>
     </div>
 
     <nav class="navbar">
-        <a href="#aboutsection">About Me</a>
-        <a href="#projectsection">My Projects</a>
+        <a href="#aboutsection">About</a>
+        <a href="#projectsection">Projects</a>
         <a href="#contactsection">Contact</a>
     </nav>
 
     <div class="hero-image">
         <div class="hero-text">
           <h1>I am Mackenzie</h1>
-          <p>And I'm a Programmer</p>
+          <p>Welcome To My Page</p>
         </div>
     </div>
 
-    <img id="headshot" src="./assets/Images/Headshot.jpg" alt="Mackenzie Headshot">
-            
+    <div class="sidebar">
+      <div id="aboutsection">About</div>
+      <div id="projectsection">Projects</div>
+      <div id="contactsection">Contact</div>
+    </div>
+        
+
     <div class="detail-area">
       <div class="about-me-section"> 
-        <div class="about-me" id="aboutsection"> About Me </div>
         <div class="about-text">
             <p>I was born in New York City and after spending 9 years living in the United States, moved with my family to Australia where I now call home. I spent the majority of my childhood playing rugby and was fortunate enough to represent Australia at the schoolboy level.</p>
             <br>
             <p>I have spent the last 5 years working as a chiropractor after having completed the 5 year university degrees. I am married and have a dog named Hank. I have been interested in technology from an early age.</p>
             <br>
-            <p id="about-p">Enjoy taking a look at the projects I have worked on.</p>
+            <p>Enjoy taking a look at the projects I have worked on.</p>
             <br>
         </div>
       </div>
 
       <div class="projects-section">
-        <div class="my-projects" id="projectsection">My Projects</div>
         <div class="projects-container">
           <div class="projects-item project-item-1">
             <a href="https://mdkgray.github.io/Week_1_Assignment_MDGray/">
@@ -63,19 +66,15 @@
       </div>
 
       <div class="contact-container">
-        <div class="contact" id="contactsection">Contact Me</div>
         <div>
-          <!-- <h2>Want to know more? Contact me at the following:</h2> -->
           <ul class="contact-section">
-            <li><a href="mailto:mdkulen@gmail.com">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/mackenzie-gray-5a68aa46/">LinkedIn</a></li>
-            <li><a href="https://github.com/mdkgray">GitHub</a></li>
+            <li id="contact-email"><a href="mailto:mdkulen@gmail.com">Email</a></li>
+            <li id="contact-linkedin"><a href="https://www.linkedin.com/in/mackenzie-gray-5a68aa46/">LinkedIn</a></li>
+            <li id="contact-github"><a href="https://github.com/mdkgray">GitHub</a></li>
           </ul>
         </div>
       </div>
-
     </div>
-
 
     <div class="footer">
         <div class="footer-head">Made by Mackenzie Gray</div>
