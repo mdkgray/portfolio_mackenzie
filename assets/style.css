@@ -10,11 +10,6 @@ body, html {
     background-color: rgb(217 217 217);
 }
 
-/* .main-body {
-    display: flex;
-    flex-direction: column;
-} */
-
 h2 {
     padding: 5px;
     font-weight: lighter;
@@ -27,7 +22,7 @@ p {
 a {
     color: black;
     text-decoration: none;
-    }
+}
     
 a:hover {
     color:#99b5bd; 
@@ -42,7 +37,7 @@ img:hover {
 
 ul {
     list-style-type: none;
-   }
+}
 
 .body {
     background-color: rgb(231 170 129);
@@ -63,7 +58,6 @@ ul {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    
 }
 
 .name {
@@ -74,7 +68,6 @@ ul {
 }
 
 .navbar { 
-    padding: 0 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -84,8 +77,6 @@ ul {
 }
 
 .navbar a {
-    padding-right: 50px;
-    padding-left: 50px;
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -148,7 +139,8 @@ ul {
     top: 0;
     padding-top: 40px;
     padding-bottom: 300px;
-    background-color: lightblue;
+    background-color: rgb(0 73 175 / 76%);
+    color: #ffffff;
     border-right: solid 3px rgb(0, 0, 114);
 }
 
@@ -192,6 +184,7 @@ ul {
 
 .about-text{
     font-size: 18px;
+    text-align: center;
     padding-left: 10px;
     display: flex;
     flex-direction: column;
@@ -304,7 +297,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 10px;
     font-size: 20px;
 }
 
@@ -320,7 +312,7 @@ ul {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(219, 174, 145);
+    background-color: rgb(217 217 217);
     color: black;
     text-align: center;
 }
@@ -360,9 +352,9 @@ ul {
     .footer {
         max-width: 100%;
     }
-  }
+}
   
-  @media screen and (max-width: 638px) {
+@media screen and (max-width: 638px) {
     .body {
         flex-direction: column;
         flex-wrap: wrap;
@@ -379,6 +371,9 @@ ul {
     }
     .contact-container {
         max-width: 100%;
+    }
+    .contact-section{
+        font-size: 18px;
     }
     #horiseon {
         width: 100%;
@@ -399,9 +394,10 @@ ul {
         font-size: 15px;
     }
     .about-text {
-        font-size: 14px;
+        font-size: 12px;
+        padding-right: 5px;
     }
     .sidebar div {
         margin-top: 35px;
     }
-  }
+}
