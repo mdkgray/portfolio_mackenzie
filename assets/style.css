@@ -297,13 +297,11 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #contact-email, #contact-linkedin, #contact-github {
-    border: solid 2px rgb(0, 0, 114);
-    background-color: white;
-    padding: 10px;
+    text-decoration: underline;
 }
 
 .footer {
