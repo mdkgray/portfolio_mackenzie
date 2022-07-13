@@ -35,7 +35,7 @@ CSS:
 - Writing of media query code to allow for changes to display so that the viewport is tailored to desktop, tablet and mobile phones. 
 
 ### Website URL
-[Click Here](https://mdkgray.github.io/Week2_Portfolio_Assignment/)
+[Click Here](https://mdkgray.github.io/portfolio_mackenzie/)
 
 ### Screenshots
 ![Homepage_1](./assets/Images/Portfolio_Screenshot1.PNG)
