@@ -1,4 +1,4 @@
-# Week 2 Portfolio Assignment
+# HTML + CSS Portfolio
 
 ## By Mackenzie Gray
 
@@ -19,7 +19,7 @@ Portfolios are used by working professionals, companies and students to highligh
 
 HTML:
 - Creation of meta-data and linking to style.css
-- Writing of general structure of body with <div> tags within to specifiy sections within the page.
+- Writing of general structure of body with <div> tags within to specify sections within the page.
 - Added header with navigation bar and hero image of recent headshot.
 - Added side bar to distinguish sections within the content section of the page.
 - Writing of sections detailing information about me, projects worked on with associated links to projects and contact section with links to Email, LinkedIn and GitHub.
@@ -30,12 +30,12 @@ CSS:
 - Added pseudo-classes for anchor tags and images.
 - Added anchor tags to projects with hyperlink references to the deployed application. 
 - Changed style types for unordered lists within the page.
-- Added properties for flexbox for the page to allow for flexible responsive layout structure. 
+- Added properties for flex box for the page to allow for flexible responsive layout structure. 
 - Styling of images across the page.
 - Writing of media query code to allow for changes to display so that the viewport is tailored to desktop, tablet and mobile phones. 
 
 ### Website URL
-[Click Here](https://mdkgray.github.io/portfolio_mackenzie/)
+[Click here to view](https://mdkgray.github.io/portfolio_mackenzie/)
 
 ### Screenshots
 ![Homepage_1](./assets/Images/Portfolio_Screenshot1.PNG)
